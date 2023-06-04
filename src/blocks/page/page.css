@@ -1,7 +1,6 @@
 .page {
   margin: 0 auto;
   width: 100%;
-  max-width: 1280px;
   background-color: #000000;
   color: #fff;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -12,3 +11,4 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
