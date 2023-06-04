@@ -1,0 +1,14 @@
+.profile__avatar-icon {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 49px;
+  left: 47px;
+}
+@media screen and (max-width: 690px) {
+  .profile__avatar-icon {
+    margin: 0 auto;
+    grid-column-start: span 3;
+    text-align: center;
+}
+}

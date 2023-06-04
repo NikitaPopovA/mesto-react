@@ -1,0 +1,19 @@
+.grid-card__btn-delete {
+  padding: 0;
+  border: 0;
+  background-image: url(../../../images/grid-card-delete.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  color: #fff;
+  width: 18px;
+  height: 19px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  opacity: 1;
+  transition: .3s;
+  cursor: pointer;
+}
+.grid-card__btn-delete:hover {
+  opacity: .6;
+}

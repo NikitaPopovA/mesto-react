@@ -1,0 +1,6 @@
+.grid-card__image {
+  height: 282px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+}

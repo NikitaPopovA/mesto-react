@@ -1,0 +1,9 @@
+.grid-card__description {
+  max-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 25px 15px 31px 21px;
+}

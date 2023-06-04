@@ -1,0 +1,16 @@
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  position: relative;
+}
+.profile__avatar:hover .profile__filter {
+  background-color: rgb(0, 0, 0, .7);
+  opacity: 1;
+}
+@media screen and (max-width: 690px) {
+  .profile__avatar {
+    grid-column: 2 / 3;
+    margin: auto;
+  }
+}

@@ -1,0 +1,40 @@
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: black;
+}
+.grid-card:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
