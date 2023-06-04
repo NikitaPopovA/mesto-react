@@ -11,3 +11,7 @@
   <li>Проект забит на функциональные компоненты </li>
 </ol>
 
+
+<p>Ссылка на проект:</p>
+
+<a href="https://nikitapopova.github.io/mesto-react/" target="_blank">https://nikitapopova.github.io/mesto-react/</a>
