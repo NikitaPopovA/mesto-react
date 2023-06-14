@@ -3,19 +3,6 @@
 <h2>Спринт №10, №11</h2>
 
 <p>Описание:</p>
-<ol>
-  <li>Новый проект на Create React App </li>
-  <li>Декларативный подход </li>
-  <li>Работа с хуками useState и useEffect </li>
-  <li>Подключите API </li>
-  <li>Проект разбит на функциональные компоненты</li>
-  <li>Рефакторинг</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ol>
 
 <ol>
   <li>Новый проект на Create React App</li>
