@@ -13,6 +13,7 @@
   opacity: 1;
   transition: .3s;
   cursor: pointer;
+  visibility: hidden;
 }
 .grid-card__btn-delete:hover {
   opacity: .6;

@@ -3,10 +3,13 @@
   flex-direction: column;
   position: relative;
   color: black;
+  transition: 0.4s ease-in-out;
 }
 .grid-card:hover {
-  opacity: 0.8;
+  filter: brightness(45%);
 }
+
+
 
 
 
