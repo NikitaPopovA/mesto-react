@@ -76,10 +76,14 @@ function App() {
       .editProfile(data)
       .then((res) => {
         setCurrentUser(res);
+        closeAllPopups();
       })
-      .catch((err) => console.log(`Ошибка.....: ${err}`))
-      .finally(() => setSubbmitButton("Сохранить"));
-    closeAllPopups();
+      .catch((err) => {
+        console.log(`Ошибка.....: ${err}`);
+      })
+      .finally(() => {
+        setSubbmitButton("Сохранить");
+      });
   }
 
   function handleUpdateAvatar(data) {
@@ -90,8 +94,12 @@ function App() {
         setCurrentUser(res);
         closeAllPopups();
       })
-      .catch((err) => console.log(`Ошибка.....: ${err}`))
-      .finally(() => setSubbmitButton("Сохранить"));
+      .catch((err) => {
+        console.log(`Ошибка.....: ${err}`);
+      })
+      .finally(() => {
+        setSubbmitButton("Сохранить");
+      });
   }
 
   function handleCardLike(card) {
