@@ -23,53 +23,52 @@ class Api {
   }
 
   getProfile() {
-    return this._request('/users/me', 'GET');
+    return this._request("/users/me", "GET");
   }
 
   getCards() {
-    return this._request('/cards', 'GET');
+    return this._request("/cards", "GET");
   }
 
   editProfile(data) {
-    return this._request('/users/me', 'PATCH', {
+    return this._request("/users/me", "PATCH", {
       name: data.name,
       about: data.description,
     });
   }
 
   addCard(data) {
-    return this._request('/cards', 'POST', {
+    return this._request("/cards", "POST", {
       name: data.cardName,
       link: data.cardLink,
     });
   }
 
   deleteCard(cardId) {
-    return this._request(`/cards/${cardId}`, 'DELETE');
+    return this._request(`/cards/${cardId}`, "DELETE");
   }
 
   addLike(cardId) {
-    return this._request(`/cards/${cardId}/likes`, 'PUT');
+    return this._request(`/cards/${cardId}/likes`, "PUT");
   }
 
   deleteLike(cardId) {
-    return this._request(`/cards/${cardId}/likes`, 'DELETE');
+    return this._request(`/cards/${cardId}/likes`, "DELETE");
   }
 
   changeAvatar(avatarLink) {
-    return this._request('/users/me/avatar', 'PATCH', {
+    return this._request("/users/me/avatar", "PATCH", {
       avatar: avatarLink,
     });
   }
 }
 
 const api = new Api({
-  baseUrl: 'https://nomoreparties.co/v1/cohort-65',
+  baseUrl: "https://nomoreparties.co/v1/cohort-65",
   headers: {
-    authorization: '045de92b-0631-4ed3-8099-55e6284a0a86',
-    'Content-Type': 'application/json',
+    authorization: "045de92b-0631-4ed3-8099-55e6284a0a86",
+    "Content-Type": "application/json",
   },
 });
 
 export default api;
-
